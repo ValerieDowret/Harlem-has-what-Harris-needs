@@ -1,0 +1,76 @@
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+
+
+* {
+    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
+    padding:15px 
+}
+
+html, body {
+    font-size: 600px;
+    font-family:Arial,sans-serif ;
+    color: black;
+    margin: 0;
+    height: 100%;
+    width: 90%;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 16px;
+    
+}
+
+.empire{
+     
+
+     }
+.cap{
+ text-align: justify;
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
+    padding:15px 
+}
+
+html, body {
+    font-size: 16px;
+    font-family:Arial,sans-serif ;
+    color: black;
+    margin: 0;
+    height: 100%;
+    width: 90%;
+
+}
